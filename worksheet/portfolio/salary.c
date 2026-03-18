@@ -28,10 +28,10 @@
     salaryAfterTax = salary - TaxContribution - NIContribution;
 
     // required print statements
-    printf("Salary £...%.2f\n", salary);
-    printf("NI contribution £...%.2f\n", NIContribution);
-    printf("Tax contribution £...%.2f\n", TaxContribution);
-    printf("Take home salary £...%.2f\n", salaryAfterTax);
+    printf("Salary £%.2f\n", salary);
+    printf("NI contribution £%.2f\n", NIContribution);
+    printf("Tax contribution £%.2f\n", TaxContribution);
+    printf("Take home salary £%.2f\n", salaryAfterTax);
 
     return 0;
 }
