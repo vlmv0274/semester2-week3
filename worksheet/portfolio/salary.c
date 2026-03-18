@@ -25,7 +25,7 @@
     salaryAfterNI = salary - NIContribution;
     taxableAmount = salaryAfterNI - nonTaxable;
     TaxContribution = taxableAmount * tax;
-    salaryAfterTax = salaryAfterNI - TaxContribution;
+    salaryAfterTax = salary - TaxContribution - NIContribution;
 
     // required print statements
     printf("Salary £...%.2f\n", salary);
